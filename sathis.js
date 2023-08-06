@@ -3,6 +3,8 @@ document.getElementById("btn1").onclick=function add(){
   a =Number(a);
   if(isNaN(a)){
     document.getElementById("final").innerHTML="Please add a number"
+  }else if(a==''){
+    document.getElementById("final").innerHTML="plese enter a temparature value"
   }
   else if(document.getElementById("input2").checked){
     a=a+273.23;
@@ -11,6 +13,6 @@ document.getElementById("btn1").onclick=function add(){
     a=a*(9/5)+32;
     document.getElementById("final").innerHTML=a+"F"
   }else{
-    document.getElementById("final").innerHTML="plese select celcious or faranaite"
+    document.getElementById("final").innerHTML="plese select celcious or faranaite button"
   }
 }
