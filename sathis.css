@@ -1,3 +1,17 @@
 .sathis1{
     color: red;
 }
+
+.container{
+    background-color: aquamarine;
+    width: 25%;
+    height: auto;
+    position: static;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: purple;
+
+}
