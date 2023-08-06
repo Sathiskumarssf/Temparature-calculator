@@ -1,10 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .sathis1{
     color: red;
 }
 .maintag{
     width: 100vw;
     height: 100vh;
-    background-image: url("https://images.pexels.com/photos/5712673/pexels-photo-5712673.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-image: url("https://media.istockphoto.com/id/824845572/photo/thermometer-sun-high-degres-hot-summer-day-high-summer-temperatures.jpg?b=1&s=612x612&w=0&k=20&c=KgRU4R03_otPK_kqc__R7VPj6ItemSCjA-dFxLsUnHA=");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,7 +17,7 @@
     padding-top: 200px;}
 
 .container{
-    background-color: aquamarine;
+    background:transparent;
     width: 25%;
     height: auto;
     position: static;
@@ -34,4 +39,5 @@ input[type="radio"] {
     transform: scale(1.5); /* Adjust the scaling factor as needed */
     margin-left: 10px; /* Add some spacing between radio button and label */
 }
+
 
